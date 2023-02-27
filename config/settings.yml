@@ -1,0 +1,105 @@
+user_autonomy:
+  topic_op_admin_enabled:
+    default: false
+    client: true
+  topic_op_admin_manipulatable_groups:
+    client: false
+    type: group_list
+    list_type: compact
+    default: "1|2|3|14" # by order: @admin, @moderators, @staff, @trust_level_4
+    allow_any: false
+  topic_op_admin_bot_user_id:
+    default: -2
+    type: integer
+    min: -100
+    client: false
+  topic_op_admin_bot_override_user:
+    default: false
+    client: false
+  topic_op_admin_enable_topic_log:
+    default: false
+    client: false
+  topic_op_admin_logger_topic:
+    default: 0
+    client: false
+  topic_op_admin_basic_autoallowing_categories:
+    client: false
+    type: category_list
+    list_type: compact
+    default: ""
+    allow_any: false
+  topic_op_admin_basic_autoallowing_tags:
+    client: false
+    type: tag_list
+    list_type: compact
+    default: ""
+    allow_any: false
+  topic_op_admin_basic_list:
+    client: false
+    type: list
+    list_type: compact
+    default: "can_close|can_archive|can_slow_mode"
+    allow_any: false
+    choices:
+      - can_close
+      - can_archive
+      - can_make_PM
+      - can_visible
+      - can_slow_mode
+      - can_set_timer
+      - can_silence
+      - can_fold_posts
+  topic_op_admin_tags_autogrant_can_close:
+    client: false
+    type: tag_list
+    list_type: compact
+    default: ""
+    allow_any: false
+  topic_op_admin_tags_autogrant_can_archive:
+    client: false
+    type: tag_list
+    list_type: compact
+    default: ""
+    allow_any: false
+  topic_op_admin_tags_autogrant_can_visible:
+    client: false
+    type: tag_list
+    list_type: compact
+    default: ""
+    allow_any: false
+  topic_op_admin_tags_autogrant_can_slow_mode:
+    client: false
+    type: tag_list
+    list_type: compact
+    default: ""
+    allow_any: false
+  topic_op_admin_tags_autogrant_can_set_timer:
+    client: false
+    type: tag_list
+    list_type: compact
+    default: ""
+    allow_any: false
+  topic_op_admin_tags_autogrant_can_silence:
+    client: false
+    type: tag_list
+    list_type: compact
+    default: ""
+    allow_any: false
+  topic_op_admin_tags_autogrant_can_make_PM:
+    client: false
+    type: tag_list
+    list_type: compact
+    default: ""
+    allow_any: false
+  topic_op_admin_require_reason_before_action:
+    default: true
+    client: true
+  topic_op_admin_never_be_banned_groups:
+    default: "1|2"
+    type: group_list
+    list_type: compact
+    allow_any: false
+    client: false
+  topic_op_admin_delete_post_instead_of_hide:
+    default: false
+    cilent: false

@@ -1,0 +1,67 @@
+zh_CN:
+  site_settings:
+    user_autonomy_plugin_enabled: "打开用户自我管理插件"
+    topic_op_admin_enabled: "打开楼主自我管理功能"
+    topic_op_admin_bot_user_id: "(必填)作为楼主自我管理插件使用的Bot的user_id"
+    topic_op_admin_enable_topic_log: "开启Bot的日志功能"
+    topic_op_admin_logger_topic: "在 topic_op_admin_enable_topic_log 的前提下，bot进行日志的话题id"
+    topic_op_admin_manipulatable_groups: "可以打开/关闭某个话题的楼主管理权的群组。（管理员永远可以操作）"
+    topic_op_admin_require_reason_before_action: "楼主自我管理时需要填写理由"
+    topic_op_admin_bot_override_user: "楼主自我管理时，使用bot代替楼主作为操作者"
+    topic_op_admin_never_be_banned_groups: "这些群组的人永远不会被楼主禁言。管理人员始终默认在列表中。"
+    topic_op_admin_delete_post_instead_of_hide: "被楼主禁言的用户在楼内发帖时的处理方式。True时，删除发送的帖子。False时，隐藏发送的帖子。"
+    topic_op_admin_basic_autoallowing_categories: "这些类别的话题，系统会自动批准楼主自治申请，并授予topic_op_admin_basic_list中的功能"
+    topic_op_admin_basic_autoallowing_tags: "这些标签的话题，系统会自动批准楼主自治申请，并授予topic_op_admin_basic_list中的功能"
+    topic_op_admin_basic_list: "系统自动批准楼主自治申请时的topic_op_admin_basic_list"
+    topic_op_admin_tags_autogrant_can_close: "这些标签的话题，系统会自动批准楼主自治申请，授权楼主关闭话题"
+    topic_op_admin_tags_autogrant_can_archive: "这些标签的话题，系统会自动批准楼主自治申请，授权楼主对话题归档"
+    topic_op_admin_tags_autogrant_can_visible: "这些标签的话题，系统会自动批准楼主自治申请，授权楼主隐藏话题"
+    topic_op_admin_tags_autogrant_can_slow_mode: "这些标签的话题，系统会自动批准楼主自治申请，授权楼主慢速模式"
+    topic_op_admin_tags_autogrant_can_set_timer: "这些标签的话题，系统会自动批准楼主自治申请，授权楼主设置计时器"
+    topic_op_admin_tags_autogrant_can_silence: "这些标签的话题，系统会自动批准楼主自治申请，授权楼主禁言别的用户"
+    topic_op_admin_tags_autogrant_can_make_PM: "这些标签的话题，系统会自动批准楼主自治申请，授权楼主转化为私信"
+  js:
+    topic_op_admin:
+      menu_button_title: "楼主管理菜单"
+      enable_topic_op_admin: "楼主管理设置…"
+      silence_user: "禁言用户…"
+      apply_for_op_admin: "申请自我管理…"
+      default_reason: "由楼主的要求操作"
+      silence_modal:
+        banned_users: "在该楼内被禁言的用户"
+        banning_users: "禁言用户……"
+        unmute: "解除禁言"
+        recover: "撤销"
+        be_ban_user: "被禁言用户"
+        be_ban_at: "被禁言时间"
+        be_ban_time: "禁言时长（分钟）"
+        forever: "永久"
+      reason_modal:
+        require_reason: "填写原因…"
+        tell_reason: "说明你操作的原因"
+        alert_no_reason: "你还没有填写原因！"
+      apply_modal:
+        show_composer: "使用编辑器"
+        introduce_title: "什么是楼主自我管理？"
+        what_is: "开启楼主自我管理后，你将可以对您的话题进行一些管理操作。"
+        tell_reason: "说明你申请的原因"
+        apply_template: "请求将 # 设为楼主自我管理。"
+        apply_template_title: "请求将话题「#」设为楼主自我管理"
+        apply_reason: "原因："
+      admin_modal:
+        title: "楼主管理设置…"
+        enable_close: "允许楼主关闭/打开话题"
+        enable_visible: "允许楼主隐藏/显示话题"
+        enable_slow_mode: "允许楼主关闭/打开话题慢速模式"
+        enable_make_PM: "允许楼主将话题转换为私信"
+        enable_archive: "允许楼主存档/打开话题"
+        enable_set_timer: "允许楼主设置话题计时器"
+        enable_silence: "允许楼主在话题内禁言其他用户"
+        enable_fold_posts: "允许楼主折叠帖子"
+    admin:
+      site_settings:
+        categories:
+          user_autonomy: 用户自治
+    user_autonomy_plugin:
+      topic_op_admin:
+        enable_topic_op_admin: "允许楼主自我管理"

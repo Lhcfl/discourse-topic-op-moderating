@@ -1,0 +1,67 @@
+en:
+  site_settings:
+    user_autonomy_plugin_enabled: "Enable User Autonomy Plugin"
+    topic_op_admin_enabled: "Enable Topic OP admin menu"
+    topic_op_admin_bot_user_id: "(Required) The user_id of the Bot used in User Autonomy Plugin"
+    topic_op_admin_enable_topic_log: "Turn on the Bot's log function"
+    topic_op_admin_logger_topic: "Under the premise of topic_op_admin_enable_topic_log, the topic id used for the bot's log"
+    topic_op_admin_manipulatable_groups: "Groups that can manipulate OP-admin rights for a certain topic. (Admins can always operate)"
+    topic_op_admin_require_reason_before_action: "Require reasons before OP-admin"
+    topic_op_admin_bot_override_user: "Use bot instead of the OP as the operator"
+    topic_op_admin_never_be_banned_groups: "Users in these groups won't be silenced by the OP. Staff are always in the list."
+    topic_op_admin_delete_post_instead_of_hide: "How to deal with users who are silenced by the host when they post in the building. When True, delete their posts. When False, autoflag and hide their posts."
+    topic_op_admin_basic_autoallowing_categories: "For these categories of topics, the system will automatically approve the autonomy application of the OP and grant topic_op_admin_basic_list"
+    topic_op_admin_basic_autoallowing_tags: "For these tags of topics, the system will automatically approve the autonomy application of the OP and grant topic_op_admin_basic_list"
+    topic_op_admin_basic_list: "functions in topic_op_admin_basic_list"
+    topic_op_admin_tags_autogrant_can_close: "Topics in these tags, the system will automatically grant can_close"
+    topic_op_admin_tags_autogrant_can_archive: "Topics in these tags, the system will automatically grant can_archive"
+    topic_op_admin_tags_autogrant_can_visible: "Topics in these tags, the system will automatically grant can_visible"
+    topic_op_admin_tags_autogrant_can_slow_mode: "Topics in these tags, the system will automatically grant can_slow_mode"
+    topic_op_admin_tags_autogrant_can_set_timer: "Topics in these tags, the system will automatically grant can_set_timer"
+    topic_op_admin_tags_autogrant_can_silence: "Topics in these tags, the system will automatically grant can_silence"
+    topic_op_admin_tags_autogrant_can_make_PM: "Topics in these tags, the system will automatically grant can_make_PM"
+  js:
+    topic_op_admin:
+      menu_button_title: "OP admin menu"
+      enable_topic_op_admin: "OP-admin Settings..."
+      silence_user: "Silence user..."
+      apply_for_op_admin: "Apply for autonomy..."
+      default_reason: "Operated by the OP's request"
+      silence_modal:
+        banned_users: "Users silenced"
+        banning_users: "Silencing user..."
+        unmute: "Unmute"
+        recover: "Recover"
+        be_ban_user: "User"
+        be_ban_at: "Silenced At"
+        be_ban_time: "Time (minutes)"
+        forever: "Forever"
+      reason_modal:
+        require_reason: "Fill in the reason..."
+        tell_reason: "Explain the reason of your operation"
+        alert_no_reason: "You haven't filled in the reason!"
+      apply_modal:
+        show_composer: "Use composer"
+        introduce_title: "What is the OP-admin"
+        what_is: "After enabling the OP-admin, you will be able to perform some moderator operations on your topics."
+        tell_reason: "Explain why you are applying"
+        apply_template: "Request to grant OP-admin permission to the topic #."
+        apply_template_title: "Request to grant OP-admin to #"
+        apply_reason: "Reason:"
+      admin_modal:
+        title: "OP-admin Settings..."
+        enable_close: "Allow OP to close/open this topic"
+        enable_visible: "Allow OP to toggle visibility to this topic"
+        enable_slow_mode: "Allow OP to set slow mode"
+        enable_make_PM: "Allow OP to convert this topic to PM"
+        enable_archive: "Allow OP to archive/unarchive this topic"
+        enable_set_timer: "Allow OP to set topic timer"
+        enable_silence: "Allow OP to silence other users in the topic"
+        enable_fold_posts: "Allow OP to fold posts"
+    admin:
+      site_settings:
+        categories:
+          user_autonomy: User Autonomy
+    user_autonomy_plugin:
+      topic_op_admin:
+        enable_topic_op_admin: "Enable Topic OP admin"
